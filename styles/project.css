@@ -1,0 +1,76 @@
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.image1{
+    width: 20px;
+    height: 20px;
+}
+.nav-item{
+    display: flex;
+    gap:30px
+}
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+.nav, .banner{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.nav{
+    max-width: 1140px;
+    width: 0 auto;
+   
+}
+.banner{
+    display: flex;
+    margin-top: 200px;
+}
+.banner-title{
+    font-size: 65px;
+    width: 700;
+}
+.banner-discription{
+    font-size: 22px;
+    width: 400;
+}
+.main-plant{
+    text-align: center;
+}
+.Our-Plant{
+    font-size: 50px;
+    width: 700;
+}
+.Plant-discription{
+    font-size: 22px;
+    width: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.flower-conftainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.flower-cart{
+    width: 270px;
+    height: 480px;
+}
