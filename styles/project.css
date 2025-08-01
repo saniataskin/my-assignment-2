@@ -50,6 +50,7 @@
 .banner-discription{
     font-size: 22px;
     width: 400;
+    color: rgba(0, 0, 0, 0.5);
 }
 .main-plant{
     text-align: center;
@@ -57,6 +58,9 @@
 .Our-Plant{
     font-size: 50px;
     width: 700;
+}
+.Our{
+    color: rgba(233, 90, 8, 1);
 }
 .Plant-discription{
     font-size: 22px;
@@ -66,11 +70,61 @@
 .flower-conftainer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 20px;
     max-width: 1140px;
     margin: 0 auto;
+    
+    
 }
 .flower-cart{
-    width: 270px;
-    height: 480px;
+text-align: center;
+
+}
+ .button{
+background-color: rgba(233, 90, 8, 1);
+color: white;
+padding: 15px  90px;
+border: none;
+
+ }
+
+
+
+
+
+ .shop-title{
+    font-size: 50px;
+    width: 700 ;
+    color: #000000;
+ }
+ .list-style{
+    font-size: 22px ;
+    width:400 ;
+    color:rgba(0, 0, 0, 0.5) ;
+ }
+
+ .section-2{
+    display: flex;
+    align-items: flex-start;
+     max-width: 1140px;
+    margin: 0 auto;
+margin-top: 210px;
+gap: 40px;
+
+}
+ .image-box{
+    position: relative;
+    width: 50%;
+ }
+ .main-image{
+    width: 550px;
+    height: 600px;
+    display: block;
+ }
+.badge{
+    position: absolute;
+    top: -90px;
+    right: -90px;
+    width: 286px;
+    height: 286px;
 }
