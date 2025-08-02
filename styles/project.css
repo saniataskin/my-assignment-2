@@ -24,17 +24,17 @@
     display: flex;
     gap:30px
 }
-.navber{
+.nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     justify-items: center;
 }
-.nav, .banner{
+.navber, .banner{
     max-width: 1140px;
     margin: 0 auto;
 }
-.nav{
+.navber{
     max-width: 1140px;
     width: 0 auto;
    
@@ -146,7 +146,7 @@ border: none;
     text-align: center;
 }
 .Deals-title{
-    text-align: ;
+    text-align:center ;
     font-size: 50px;
     width: 500;
     color: #000000;
@@ -166,14 +166,15 @@ gap: 10px;
 }
 .deal-box1{
     background-image: url(../assets/deal-bloom.png);
-    width: 360px;
-    height: 200px;
+    max-width:360px;
+    max-height: 200px;  
     border-radius: 10px;
 }
 .deal-box2{
     background-image: url(../assets/deal-ana.png);
-    width: 360px;
-    height: 200px;
+    max-width: 360px;
+    
+   max-height: 200px;
     border-radius: 10px;
 }
 .content{
@@ -185,8 +186,8 @@ gap: 10px;
 }
 .deal-box3{
     background-image: url(../assets/deal-zabo.png);
-    width: 750px;
-    height: 410px;
+    max-width: 100%;
+    max-height: 100%;
     text-align: center;
     border-radius: 10px;
 }
@@ -197,9 +198,9 @@ gap: 10px;
 }
 .colorful{
     background-image: url(../assets/news-letter-bg.png);
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
-    height: 530px;
+    max-height: 530px;
     text-align: center;
     margin-top: 120px;
 }
@@ -228,6 +229,47 @@ gap: 10px;
     margin-top: 50px;
     gap: 20px;
 }
+.footer-description{
+    color: #6B7280;
+   
+}
 .FAQ{
     padding: 10px;
+    color: #6B7280;
+}
+@media screen and (max-width: 576px) {
+.item{
+   display: none; 
+}
+.flower-conftainer{
+grid-template-columns: repeat(2, 1fr);
+
+}
+.section-2{
+    flex-direction: column;
+}
+.badge{
+    display: none;
+}
+.banner{
+    flex-direction: column-reverse;
+}
+.image-container{
+    flex-direction: column;
+}
+.deal-box3{
+    max-width: 360px;
+    max-height: 200px ;
+}
+ .conten{
+    text-align: center;
+    padding-top: 20px;
+ }
+ .form{
+    padding: 10px 10px;
+ }
+ .footer{
+    grid-template-columns: repeat(1, 1fr);
+ }
+ 
 }
